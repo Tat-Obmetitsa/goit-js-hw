@@ -1,13 +1,25 @@
-const total = 100;
-let ordered = 50;
-const type = ordered <= total ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
-console.log(type);
+const stock = 100;
+let invoice = 100;
+console.log = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
-ordered = 20;
-console.log(type);
+invoice = 20;
+console.log;
 
-ordered = 80;
-console.log(type);
+invoice = 80;
+console.log;
 
-ordered = 130;
-console.log(type);
+invoice = 130;
+console.log;
+
+
+// let invoice = 100;
+// const stock = 100;
+// const messageTrue = 'Заказ оформлен, с вами свяжется менеджер';
+
+// console.log("invoice>=stock", messageTrue);
+
+// invoice = 50;
+// console.log("invoice>=stock", messageTrue);
+// invoice = 150;
+// const messageFalse = 'На складе недостаточно твоаров!';
+// console.log("invoice>=stock", messageFalse);
