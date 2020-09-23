@@ -1,12 +1,12 @@
-// const ADMIN_PASSWORD = 'jqueryismyjam';
-// let message;
+const userPassword = 'jqueryismyjam';
 
-// let userInput = prompt('Введите пароль');
-// console.log(userInput);
+const ADMIN_PASSWORD = 'jqueryismyjam';
 
-// userInput = ? userInput === ADMIN_PASSWORD
-//   ?(message = 'Добро пожаловать!')
-//   : (message = 'Доступ запрещен, неверный пароль!');
+const CANCELED_BY_USER = 'Отменено пользователем!';
+const ACCESS_IS_ALLOWED = 'Добро пожаловать!';
+const ACCESS_DENIED = 'Доступ запрещен, неверный пароль!';
+let message;
 
-// : (message = 'Отменено пользователем!');
-// alert(message);
+if (ADMIN_PASSWORD === userPassword) { message = 'Добро пожаловать!' } else { message = 'Доступ запрещен, неверный пароль!' };
+if (userPassword === null) { message = 'Отменено пользователем!' };
+console.log(message);
