@@ -1,15 +1,15 @@
 const stock = 100;
 let invoice = 100;
-console.log = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
+console.message = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
 invoice = 20;
-console.log;
+console.message = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
 invoice = 80;
-console.log;
+console.message = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
 invoice = 130;
-console.log;
+console.message = invoice <= stock ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
 
 // let invoice = 100;
